@@ -1,7 +1,5 @@
 # 클라우드 기반 원격 DaaS
 
-2023년 전기 졸업과제 37조 클라우드 기반 원격 DaaS
-
 ## **1. 프로젝트 소개**
 
 ### **| 개요**
@@ -129,15 +127,11 @@
 | **교육자의 가상환경 화면** | <img src="https://github.com/pnucse-capstone/capstone-2023-1-37/assets/96944649/08b5bb08-3762-4a5b-ba58-68e83eac944b" width="550"/> | 
 | **관리자의 모니터링 화면** | <img src="https://github.com/pnucse-capstone/capstone-2023-1-37/assets/96944649/a78dada9-b6ee-4332-b7e3-5799a050db6e" width="550"/> | 
 
-### **| 시연 영상**
-
-[![부산대학교 정보컴퓨터공학부 소개](http://img.youtube.com/vi/zh_gQ_lmLqE/0.jpg)](https://youtu.be/zh_gQ_lmLqE)
-
 <br>
 
 ## **5. 설치 및 사용법**
 
-### **| Use [PNU-P2K](https://github.com/PNU-P2K) for Deploy**
+### **| Use [P2K](https://github.com/PNU-P2K) for Deploy**
 - [SpringBoot Application](https://github.com/PNU-P2K/webpage.git)
 - [Flask Application](https://github.com/PNU-P2K/vm-server.git)
 
@@ -230,7 +224,7 @@ sudo systemctl status docker
 - **SpringBoot Application**
 ```
 # Repository git clone
-git clone https://github.com/PNU-P2K/webpage.git
+git clone https://github.com/{org}/webpage.git
 
 # Install JDK 17
 sudo apt update
@@ -253,7 +247,7 @@ docker-compose up -d --build
 - **Flask Application**
 ```
 # Repository git clone
-git clone https://github.com/PNU-P2K/vm-server.git
+git clone https://github.com/{org}/vm-server.git
 
 # Install pip
 sudo apt update
